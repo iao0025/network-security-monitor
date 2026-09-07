@@ -1,0 +1,9 @@
+{
+  "timeout_seconds": 2.0,
+  "targets": [
+    {"name": "Local web service", "host": "127.0.0.1", "port": 8000, "protocol": "tcp"},
+    {"name": "Example HTTPS endpoint", "host": "example.com", "port": 443, "protocol": "https", "path": "/"}
+  ]
+}
+
+
